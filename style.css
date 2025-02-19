@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 2vw;
+}
+
+.button{
+    height: 10vh;
+    width: 10vw;
+    background-color: red;
+    display: inline-block; /* Ensures that the spans act as block elements */
+    margin: 10px; /* Adds some spacing between them */
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#grey{
+    background-color: grey;
+    margin-left: 8vw;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+@media screen and (max-width: 600px){
+	.button{
+	height: 10vh;
+	width: 15vw;
+}
+}
